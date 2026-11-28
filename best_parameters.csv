@@ -1,0 +1,5 @@
+run_id,model_family,best_params_json,search_rows_train,search_rows_validation,n_iter,runtime_seconds
+20261127_215202_Gradient_Boosting,Gradient Boosting,"{""model__l2_regularization"": 1, ""model__learning_rate"": 0.03, ""model__max_iter"": 200, ""model__max_leaf_nodes"": 31, ""model__min_samples_leaf"": 100}",250000,245353,20,262.5429539680481
+20261127_234641_Random_Forest,Random Forest,"{""model__max_depth"": 30, ""model__max_features"": ""sqrt"", ""model__max_samples"": 0.5, ""model__min_samples_leaf"": 10, ""model__n_estimators"": 250}",250000,245353,20,342.01087284088135
+20261127_235605_LightGBM,LightGBM,"{""model__learning_rate"": 0.05, ""model__min_child_samples"": 50, ""model__n_estimators"": 200, ""model__num_leaves"": 15, ""model__reg_alpha"": 0, ""model__reg_lambda"": 1}",250000,245353,20,253.1034889221191
+20261128_000850_CatBoost,CatBoost,"{""bagging_temperature"": 0, ""depth"": 10, ""iterations"": 1000, ""l2_leaf_reg"": 1, ""learning_rate"": 0.02, ""random_strength"": 1}",250000,245353,20,15864.829628944397
